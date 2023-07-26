@@ -1,0 +1,234 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: brown;
+}
+
+.main-header .Logo img{
+    width: 80px;
+    background-size: cover;
+    border-radius: 15px;
+    background-position: center;
+    text-align: center;
+    display: flex;
+    /* justify-content: space-between; */
+
+}
+.main-header .Logo{
+    width: 100px;
+    margin: 5px ;
+    align-items: center;
+}
+
+.main-header{
+    width: 100%;
+    min-height: 105vh;
+    background-image: linear-gradient(rgb(147, 15, 15), rgb(0,0,0,0.5)), url(./XOOW4767.JPG);
+    background-size: cover;
+    background-position: center;  
+    justify-content: space-between;
+    
+}
+.main-header .all-head{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 3px;
+    text-align: center;
+    width: 110%;
+    
+    
+}
+
+
+.main-header .profile{
+    display: flex;
+    justify-content: flex-end;
+    flex-basis: 10%;
+    /* align-items: center; */
+    color: #fff;
+    font-size: 1.7em;
+    cursor: pointer;
+}
+
+.main-header  ul{
+    list-style: none;
+}
+.main-header nav ul li{
+    display: inline-block;
+
+}
+.main-header nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: capitalize;
+    margin-left: 12px;
+    font-size: 1.4em;
+    cursor: pointer;
+}
+
+.main-header .home-border{
+    border-bottom: 2px solid white;
+    padding-bottom: 5px;
+}
+.main-header main{
+    color: #fff;
+    text-align: center;
+    margin-top: 10%;
+}
+
+.main-header main h1{
+    text-align: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    text-transform: capitalize;
+    padding: 20px auto;
+    font-size: 5em;
+}
+.main-header main p{
+    font-size: 2em;
+    margin-top: 1em;
+    
+}
+
+.flex-container{
+    background-color: brown;
+    flex-direction: column;
+    display: flex;
+
+}
+
+.Kilishi{
+    width: 100%;
+    margin: 0 auto;
+    padding: 18px;
+    text-align: center;
+    background-color: rgb(101, 17, 17);
+    line-height: 20px;
+}
+.Kilishi h1{
+    align-items: center;
+    font-size: 2.3em;
+    font-weight: bold;
+    text-transform: capitalize;
+    padding: 18px;
+}
+.Kilishi p{
+    padding: 18px 0;
+    margin: 0 auto;
+    width: 75%;
+    text-align: center;
+    font-weight: 450;
+    font-size: large;
+}
+.lOCATION{
+    width: 100%;
+    padding: 18px 0;
+    margin: 0 auto;
+    text-align: center;
+    background-color: rgb(108, 76, 76);
+}
+.lOCATION h1{
+    align-items: center;
+    font-size: 2.3em;
+    font-weight: bold;
+    text-transform: capitalize;
+    padding: 18px;
+
+}
+.lOCATION p{
+    padding: 18px 0;
+    margin: 0 auto;
+    width: 75%;
+    text-align: center;
+    font-weight: 450;
+    font-size: large;
+
+}
+ 
+.Order{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 18px 0;
+    background-color: rgb(214, 193, 166);
+    color: rgb(45, 13, 13);
+
+}
+.Order h1{
+    padding: 18px;
+    align-items: center;
+    font-size: 2.3em;
+    font-weight: bold;
+    text-transform: capitalize;    
+
+}
+.Order p{
+    padding: 18px 0;
+    text-align: center;
+    margin: 0 auto;
+    width: 75%;
+    font-weight: 450;
+    font-size: large;
+
+}
+.Order button{
+    padding: 7.5px;
+    color: rgb(140, 30, 30);
+    border: none;
+    border-radius: 6.5px;
+    background-color: aliceblue;
+    font-weight: 300;
+    width: 12%;
+    cursor: pointer;
+}
+form{
+    padding: 20px 0;
+    text-align: center;
+    width: 100%;
+    min-height: 100vh;
+    background-image: linear-gradient(rgb(147, 15, 15), rgb(0,0,0,0.5)), url(./IMG_7137.JPG);
+    background-size: cover;
+    background-position: center;  
+    
+    
+}
+
+input [type=text] select{
+    width: 10%;
+    padding: 10px ;
+    margin: 7px 0;
+    display: inline-block;
+    border: 1px;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+
+.button{
+    text-decoration: none;
+    padding: 6.5px;
+    color: whitesmoke;
+    border: none;
+    border-radius: 7.5px;
+    background-color: rgb(140, 30, 30);
+    font-weight: 300;
+    width: 17%;
+    cursor: pointer;
+}
+
+@media(max-width:518px){
+    body{
+        background-color: whitesmoke;
+    }
+}
+
+@media(max-width:502px){
+    .min-width2{
+        /* display: flex; */
+        flex-direction: column;
+    }
+}
